@@ -1,0 +1,5 @@
+{
+  "name": "FAST NUCES Timetable Viewer",
+  "description": "An interactive timetable viewer for FAST NUCES Karachi. Allows users to upload, view, filter, and download timetable data from XLSX or CSV files.",
+  "requestFramePermissions": []
+}
