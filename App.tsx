@@ -15,8 +15,8 @@ const EmptyState: React.FC = () => (
             </svg>
         </div>
         <h3 className="mt-6 text-xl font-semibold text-white">Your Timetable Awaits</h3>
-        <p className="mt-2 text-slate-400">
-            Upload your timetable file (.xlsx or .csv) to begin.
+        <p className="mt-2 text-slate-400 max-w-lg mx-auto">
+            To get started, upload your official FAST NUCES timetable file (.xlsx or .csv). The application will instantly parse it into an interactive and filterable schedule.
         </p>
     </div>
 );
@@ -148,8 +148,9 @@ const App: React.FC = () => {
                         <EmptyState />
                     )}
                 </div>
-                <footer className="text-center text-sm text-slate-500 pt-4">
-                    <p>Designed for a modern, efficient timetable viewing experience.</p>
+                <footer className="text-center text-sm text-slate-500 pt-4 space-y-2">
+                    <p>Designed for a modern, efficient timetable viewing experience for FAST NUCES students.</p>
+                    <p>&copy; {new Date().getFullYear()} Timetable Matrix. An unofficial tool to help students manage their schedules.</p>
                 </footer>
             </main>
         </div>
